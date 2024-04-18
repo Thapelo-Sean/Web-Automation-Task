@@ -1,0 +1,39 @@
+1. Scenarios for the login screen:
+   1. Valid username and password combination.
+   2. Invalid username and valid password combination.
+   3. Valid username and invalid password combination.
+   4. Empty username field.
+   5. Empty password field.
+   6. Username with special characters.
+   7. Password with special characters.
+   8. Username or password exceeding maximum character limit.
+   9. Login with caps lock activated.
+   10. Attempting to login multiple times with incorrect credentials, checking for any lockout mechanism.
+   11. Login with expired or inactive account.
+   12. Login from different browsers.
+
+2. Test Case for Scenario 1:
+   Test Case Title: Successful Login with Valid Credentials
+   Description:
+   1. Open the Orange HRM Live application.
+   2. Enter a valid username and password combination.
+   3. Click on the login button.
+   Expected Result: User should be logged in successfully and directed to the application dashboard.
+
+3. Documenting the bug:
+   Bug Title: "Error Occurred" message displayed despite providing correct credentials
+   Description:
+   When attempting to log in with the correct username and password combination, an "Error Occurred" message is displayed instead of successfully logging in to the system.
+   Steps to Reproduce:
+   1. Open the Orange HRM Live application.
+   2. Enter the correct username and password combination.
+   3. Click on the login button.
+   Actual Result: "An error occurred" message is displayed.
+   Expected Result: User should be logged in successfully and directed to the application dashboard.
+
+4. Testing technique without focusing on the internal workings of the system is Black Box Testing.
+
+5. Boundary value analysis for numeric text field (0 to 100):
+   - Inputs: -1, 0, 1, 99, 100, 101
+
+6. The testing technique that allows testers to think outside the box and come up with use cases that might not be covered in predefined test cases is Exploratory Testing.
