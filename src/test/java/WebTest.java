@@ -38,7 +38,7 @@ public class WebTest {
         extent = new ExtentReports();
         spark = new ExtentSparkReporter("./Reports/Web-Automation_Task.html");
         extent.attachReporter(spark);
-        spark.config().setReportName("Login Report");
+        spark.config().setReportName("Web Automation Test Report");
         spark.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a");
     }
 
