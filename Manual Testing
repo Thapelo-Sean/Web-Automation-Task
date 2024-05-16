@@ -6,8 +6,7 @@ Manual Testing Task1
    2. Invalid username and valid password combination.
    3. Valid username and invalid password combination.
    4. Empty username field and Empty password field.
-   5.Forgot password functionality.
-     - Attempting to login multiple times with incorrect credentials, checking for any lockout   mechanism.
+   5. Forgot password functionality.
 
 2. Test Case for Scenario 1:
    Test Case Title: Successful Login with Valid Credentials
