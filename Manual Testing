@@ -1,16 +1,13 @@
+Manual Testing Task1
+
+
 1. Scenarios for the login screen:
    1. Valid username and password combination.
    2. Invalid username and valid password combination.
    3. Valid username and invalid password combination.
-   4. Empty username field.
-   5. Empty password field.
-   6. Username with special characters.
-   7. Password with special characters.
-   8. Username or password exceeding maximum character limit.
-   9. Login with caps lock activated.
-   10. Attempting to login multiple times with incorrect credentials, checking for any lockout mechanism.
-   11. Login with expired or inactive account.
-   12. Login from different browsers.
+   4. Empty username field and Empty password field.
+   5.Forgot password functionality.
+     - Attempting to login multiple times with incorrect credentials, checking for any lockout   mechanism.
 
 2. Test Case for Scenario 1:
    Test Case Title: Successful Login with Valid Credentials
@@ -33,7 +30,26 @@
 
 4. Testing technique without focusing on the internal workings of the system is Black Box Testing.
 
-5. Boundary value analysis for numeric text field (0 to 100):
+5. Testing technique used to test the system focusing on the internal workings of the system is White Box Testing.
+
+6. Boundary value analysis for numeric text field (0 to 100):
    - Inputs: -1, 0, 1, 99, 100, 101
 
-6. The testing technique that allows testers to think outside the box and come up with use cases that might not be covered in predefined test cases is Exploratory Testing.
+7. The testing technique that allows testers to think outside the box and come up with use cases that might not be covered in predefined test cases is Exploratory Testing.
+
+
+8. Reviewing documents (e.g., requirements, design) without
+executing code falls under Static Testing, because we are not executing the software.
+
+9. Type of testing involving executing the code to validate
+Functionality is Dynamic Testing.
+
+10. 1 Test level in Software Testing is Integration Testing, testing the interaction between modules or units to verify that they function together as expected.
+
+11. The initial round of testing performed after a build is deployed is Smoke Testing.
+
+12. Type of testing that is crucial part of software testing that
+evaluates the speed, responsiveness, stability, and scalability of a system is Performance Testing.
+
+13. Automated testing is the type I would recommend when human testing is time-consuming.
+
