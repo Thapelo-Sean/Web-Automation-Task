@@ -6,11 +6,13 @@ Ensure that you have the following prerequisites installed on your system:
 
 Java Development Kit (JDK)
 Maven
-Chrome WebDriver
+Google Chrome
+
 Setup
 Clone this repository to your local machine.
 Install dependencies by running mvn clean install.
 Run the tests using TestNG or your preferred test runner.
+
 Running the Tests
 To run the test suite, follow these steps:
 
