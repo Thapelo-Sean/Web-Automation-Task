@@ -12,6 +12,7 @@ Setup
 Clone this repository to your local machine.
 Install dependencies by running mvn clean install.
 Run the tests using TestNG or your preferred test runner.
+Path of the test file, src/test/java/WebTest.java
 
 Running the Tests
 To run the test suite, follow these steps:
